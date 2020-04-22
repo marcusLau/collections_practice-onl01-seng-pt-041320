@@ -43,3 +43,7 @@ def find_a(arr)
   end
   a_arr
 end
+
+def sum_arryy(nums)
+  
+end
