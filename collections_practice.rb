@@ -44,6 +44,10 @@ def find_a(arr)
   a_arr
 end
 
-def sum_arryy(nums)
-  
+def sum_array(nums)
+  sum = 0
+  for i in 0..nums.length-1
+    sum+=nums[i]
+  end
+  return sum
 end
