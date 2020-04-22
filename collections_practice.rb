@@ -56,7 +56,9 @@ end
 def add_s(arr)
   for i in 0..arr.length-1
     if i != 1 
-      
+      arr[i].concat("s")
+    end
+  end
 end
 
 
