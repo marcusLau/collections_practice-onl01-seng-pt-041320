@@ -51,3 +51,4 @@ def sum_array(nums)
   end
   return sum
 end
+
