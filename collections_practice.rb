@@ -4,5 +4,10 @@ def sort_array_asc(nums)
 end
 
 def sort_array_desc(nums)
-  nums.sort_by{ |num| -nums.length}
+  rev_arr = []
+  i = nums.length-1
+  while i > 0
+    rev_arr[i] = nums[i]
+  end
+  rev_arr
 end
