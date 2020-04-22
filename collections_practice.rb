@@ -1,13 +1,23 @@
+require 'pry'
+
 def sort_array_asc(nums)
   # sorts array into asc order
   nums.sort
 end
 
 def sort_array_desc(nums)
-  rev_arr = []
-  i = nums.length-1
-  while i > 0
-    rev_arr[i] = nums[i]
+  nums.sort.reverse
+end
+
+def sort_array_char_count(nums)
+  nums.sort do |a, b|
+    a.length <=> b.length
   end
-  rev_arr
+end
+
+def swap_elements(nums)
+  temp = nums[1] # gets the 2nd element
+  nums[1] = nums[2] 
+  nums[2] = temp
+  nums
 end
