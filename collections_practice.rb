@@ -33,3 +33,13 @@ def kesha_maker(strings)
   end
 end
 
+# finds all strings starting with a
+def find_a(arr)
+  a_arr = []
+  for i in 0..arr.length-1
+    if arr[i].start_with?("a")
+      a_arr << arr[i]
+    end
+  end
+  a_arr
+end
