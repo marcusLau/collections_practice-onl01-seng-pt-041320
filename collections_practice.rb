@@ -52,3 +52,13 @@ def sum_array(nums)
   return sum
 end
 
+# adds "s" to end of every word except for the 2nd element
+def add_s(arr)
+  for i in 0..arr.length-1
+    if i != 1 
+      
+end
+
+
+
+
