@@ -32,3 +32,4 @@ def kesha_maker(strings)
     s[2] = "$"
   end
 end
+
