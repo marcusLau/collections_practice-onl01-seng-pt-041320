@@ -25,3 +25,8 @@ end
 def reverse_array(nums)
   nums.reverse
 end
+
+# replaces 3rd char in string with $
+def kesha_maker(strings)
+  
+end
