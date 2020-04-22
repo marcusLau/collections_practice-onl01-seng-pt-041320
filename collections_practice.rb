@@ -28,5 +28,6 @@ end
 
 # replaces 3rd char in string with $
 def kesha_maker(strings)
-  
+  strings.each do |s|
+    s
 end
