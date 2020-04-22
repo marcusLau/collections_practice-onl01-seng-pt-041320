@@ -59,6 +59,7 @@ def add_s(arr)
       arr[i].concat("s")
     end
   end
+  arr
 end
 
 
